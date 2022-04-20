@@ -35,14 +35,14 @@ form {
     border-radius: 20px;
     flex: 2;
     padding-bottom: 20px;
-    width: 90vh;
+    width: 50%;
     height: 200vh;
     flex-direction: row;
     flex-wrap: wrap;
     align-content: stretch;
     justify-content: flex-start;
     align-items: center;
-    
+    min-width: 350px;
 }
 
 h3 {
