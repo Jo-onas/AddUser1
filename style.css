@@ -1,0 +1,88 @@
+@import url('https://fonts.googleapis.com/css2?family=Akshar:wght@300&family=Merriweather+Sans&family=Poppins:wght@100&family=Roboto:ital,wght@1,700&display=swap');
+* {
+    margin: 0;
+    border: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Akshar', sans-serif;
+    background-color: orange;
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+
+.buttonvolta {
+    font-weight: bolder;
+    background-color: rgb(145, 41, 0);
+    text-decoration: none;
+    color: aliceblue;
+    padding: 20px;
+    border-radius: 40px;
+    margin: 10px;
+}
+
+.buttonvolta:hover {
+    cursor: pointer;
+    background-color: rgb(192, 22, 0) ;
+}
+
+form {
+    display: flex;
+    background-color: white;
+    border-radius: 20px;
+    flex: 2;
+    padding-bottom: 20px;
+    width: 90vh;
+    height: 200vh;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-content: stretch;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+h3 {
+    color: rgb(201, 90, 0);
+}
+
+label {
+    display: flex;
+    margin: 25px;
+}
+
+input {
+    padding-left: 10px;
+    margin-left: 40px;
+    border-radius: 50px;
+    border: 3px solid orange;
+}
+
+select {
+    margin-left: 10px;
+    border-radius: 50px;
+    border: 3px solid orange;
+}
+
+textarea {
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 3px solid orange;
+}
+
+.add-user {
+    font-weight: bolder;
+    color: white;
+    background-color: green;
+    padding: 20px;
+    border-radius: 40px;
+    margin-left: 20px ;
+}
+
+.add-user:hover {
+    cursor: pointer;
+    background-color: rgb(0, 163, 0);
+}
